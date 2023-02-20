@@ -1,0 +1,31 @@
+{
+  "name": "web-xr-demo",
+  "version": "1.0.0",
+  "description": "a Simple WebXR Application",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config ./src/client/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvindiol/web-xr-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvindiol/web-xr-demo/issues"
+  },
+  "homepage": "https://github.com/gvindiol/web-xr-demo#readme",
+  "devDependencies": {
+    "@types/three": "^0.149.0",
+    "three": "^0.149.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
